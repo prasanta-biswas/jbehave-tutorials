@@ -1,0 +1,965 @@
+[INFO ] 2018-05-23 14:48:01.128 [pool-1-thread-1] WalletHubApp - Initializing page objects...
+[ERROR] 2018-05-23 14:48:01.311 [pool-1-thread-1] WalletHubReviewInsurance - Error
+java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:787) ~[guava-23.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:96) ~[selenium-support-3.8.1.jar:?]
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:72) ~[selenium-support-3.8.1.jar:?]
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:46) ~[selenium-support-3.8.1.jar:?]
+	at io.jbehavetutorials.appmodule.wallethub.WalletHubApp.<init>(WalletHubApp.java:44) ~[classes/:?]
+	at io.jbehavetutorials.steps.wallethub.WalletHubReviewInsurance.iHaveAWallerHubTestAccount(WalletHubReviewInsurance.java:43) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_112]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_112]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_112]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_112]
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:743) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:351) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1165) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:1032) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1097) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:962) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:867) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:843) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:427) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:398) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266) [jbehave-core-4.3.2.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_112]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_112]
+[INFO ] 2018-05-23 14:48:01.334 [pool-1-thread-1] WalletHubReviewInsurance - Opening pthewizard
+[DEBUG] 2018-05-23 14:53:08.518 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 14:53:08.520 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 14:53:08.521 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 14:53:12.038 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 14:53:12.038 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 14:53:12.038 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 14:53:14.210 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 14:53:14.212 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 14:53:14.213 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 14:53:15.743 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 14:53:15.743 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 14:53:15.745 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[INFO ] 2018-05-23 14:53:17.325 [pool-1-thread-1] WalletHubApp - Initializing page objects...
+[INFO ] 2018-05-23 14:53:17.402 [pool-1-thread-1] WalletHubApp - Page object initialization finished
+[INFO ] 2018-05-23 14:53:17.403 [pool-1-thread-1] WalletHubReviewInsurance - Opening pthewizard
+[DEBUG] 2018-05-23 14:53:17.404 [pool-1-thread-1] WalletHubApp - Opening wallethub url: pthewizard
+[ERROR] 2018-05-23 14:53:17.404 [pool-1-thread-1] WalletHubReviewInsurance - Error occurred
+java.net.MalformedURLException: no protocol: pthewizard
+	at java.net.URL.<init>(URL.java:593) ~[?:1.8.0_112]
+	at java.net.URL.<init>(URL.java:490) ~[?:1.8.0_112]
+	at java.net.URL.<init>(URL.java:439) ~[?:1.8.0_112]
+	at io.jbehavetutorials.appmodule.wallethub.WalletHubApp.open(WalletHubApp.java:70) ~[classes/:?]
+	at io.jbehavetutorials.steps.wallethub.WalletHubReviewInsurance.iOpenWalletHubInBrowser(WalletHubReviewInsurance.java:56) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_112]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_112]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_112]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_112]
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:743) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:351) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1165) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:1032) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1097) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:962) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:867) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:843) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:427) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:398) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266) [jbehave-core-4.3.2.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_112]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_112]
+[DEBUG] 2018-05-23 14:53:17.416 [pool-1-thread-1] WalletHubApp - Login into the portal with email: pthewizard@gmail.com and password: Abcd123*
+[ERROR] 2018-05-23 14:53:27.504 [pool-1-thread-1] WalletHubReviewInsurance - Error occurred
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"login"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Prasantas-MacBook-Pro.local', ip: 'fe80:0:0:0:ce5:8a3a:4ef6:3374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/66/r6f0wntx1h5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: e68950ece59069bbc2d0c055c13530c2
+*** Element info: {Using=class name, value=login}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_112]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_112]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_112]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_112]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:457) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:391) ~[selenium-api-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69) ~[selenium-support-3.8.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-3.8.1.jar:?]
+	at com.sun.proxy.$Proxy26.click(Unknown Source) ~[?:?]
+	at io.jbehavetutorials.pageobjects.wallethub.MenuBar.clickLogin(MenuBar.java:25) ~[classes/:?]
+	at io.jbehavetutorials.appmodule.wallethub.WalletHubApp.login(WalletHubApp.java:80) ~[classes/:?]
+	at io.jbehavetutorials.steps.wallethub.WalletHubReviewInsurance.iLoginToMyWalletHubAccount(WalletHubReviewInsurance.java:68) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_112]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_112]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_112]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_112]
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:743) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:351) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1165) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:1032) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1097) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:962) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:867) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:843) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:427) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:398) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266) [jbehave-core-4.3.2.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_112]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_112]
+[ERROR] 2018-05-23 14:53:58.118 [pool-1-thread-1] WalletHubReviewInsurance - Error occurred
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(@class,'user') and @data-menu='m-user']' (tried for 20 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82) ~[selenium-support-3.8.1.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231) ~[selenium-support-3.8.1.jar:?]
+	at io.jbehavetutorials.appmodule.wallethub.WalletHubApp.waitForVisibilityOf(WalletHubApp.java:174) ~[classes/:?]
+	at io.jbehavetutorials.steps.wallethub.WalletHubReviewInsurance.iShouldLandOnMyHomePage(WalletHubReviewInsurance.java:82) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_112]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_112]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_112]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_112]
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:743) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:351) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1165) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:1032) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1097) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:962) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:867) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:843) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:427) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:398) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266) [jbehave-core-4.3.2.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_112]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_112]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'user') and @data-menu='m-user']"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Prasantas-MacBook-Pro.local', ip: 'fe80:0:0:0:ce5:8a3a:4ef6:3374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/66/r6f0wntx1h5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: e68950ece59069bbc2d0c055c13530c2
+*** Element info: {Using=xpath, value=//a[contains(@class,'user') and @data-menu='m-user']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_112]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_112]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_112]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_112]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361) ~[selenium-api-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69) ~[selenium-support-3.8.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-3.8.1.jar:?]
+	at com.sun.proxy.$Proxy26.isDisplayed(Unknown Source) ~[?:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:301) ~[selenium-support-3.8.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:43) ~[selenium-support-3.8.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287) ~[selenium-support-3.8.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:284) ~[selenium-support-3.8.1.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208) ~[selenium-support-3.8.1.jar:?]
+	... 22 more
+[INFO ] 2018-05-23 14:53:58.120 [pool-1-thread-1] WalletHubReviewInsurance - Navigating to http://wallethub.com/profile/test_insurance_company/
+[INFO ] 2018-05-23 14:53:58.121 [pool-1-thread-1] WalletHubApp - Navigating to url: http://wallethub.com/profile/test_insurance_company/
+[INFO ] 2018-05-23 14:54:04.364 [pool-1-thread-1] WalletHubReviewInsurance - Current reviewHealthPolicy count: 40
+[INFO ] 2018-05-23 14:54:04.368 [pool-1-thread-1] WalletHubReviewInsurance - Navigating to https://wallethub.com/profile/pthewizard/reviews/
+[INFO ] 2018-05-23 14:54:04.369 [pool-1-thread-1] WalletHubApp - Navigating to url: https://wallethub.com/profile/pthewizard/reviews/
+[DEBUG] 2018-05-23 14:57:18.102 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 14:57:18.106 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 14:57:18.108 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 14:57:20.853 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 14:57:20.853 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 14:57:20.854 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 14:57:22.410 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 14:57:22.411 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 14:57:22.411 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 14:57:23.828 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 14:57:23.828 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 14:57:23.828 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[INFO ] 2018-05-23 14:57:25.262 [pool-1-thread-1] WalletHubApp - Initializing page objects...
+[INFO ] 2018-05-23 14:57:25.323 [pool-1-thread-1] WalletHubApp - Page object initialization finished
+[INFO ] 2018-05-23 14:57:25.324 [pool-1-thread-1] WalletHubReviewInsurance - Opening https://wallethub.com/
+[DEBUG] 2018-05-23 14:57:25.325 [pool-1-thread-1] WalletHubApp - Opening wallethub url: https://wallethub.com/
+[INFO ] 2018-05-23 14:57:25.327 [pool-1-thread-1] WalletHubApp - URL: https://wallethub.com/
+[INFO ] 2018-05-23 14:57:29.199 [pool-1-thread-1] WalletHubApp - Wallethub opened successfully
+[DEBUG] 2018-05-23 14:57:29.201 [pool-1-thread-1] WalletHubApp - Login into the portal with email: pthewizard@gmail.com and password: Abcd123*
+[INFO ] 2018-05-23 14:57:36.782 [pool-1-thread-1] WalletHubApp - Login successful
+[INFO ] 2018-05-23 14:57:36.804 [pool-1-thread-1] WalletHubApp - Element is visible
+[INFO ] 2018-05-23 14:57:36.804 [pool-1-thread-1] WalletHubReviewInsurance - Login is successful
+[DEBUG] 2018-05-23 14:58:51.257 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 14:58:51.259 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 14:58:51.259 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 14:58:53.933 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 14:58:53.933 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 14:58:53.933 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 14:58:55.444 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 14:58:55.446 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 14:58:55.447 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 14:58:56.775 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 14:58:56.775 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 14:58:56.775 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[INFO ] 2018-05-23 14:58:58.125 [pool-1-thread-1] WalletHubApp - Initializing page objects...
+[INFO ] 2018-05-23 14:58:58.181 [pool-1-thread-1] WalletHubApp - Page object initialization finished
+[INFO ] 2018-05-23 14:58:58.182 [pool-1-thread-1] WalletHubReviewInsurance - Opening https://wallethub.com/
+[DEBUG] 2018-05-23 14:58:58.182 [pool-1-thread-1] WalletHubApp - Opening wallethub url: https://wallethub.com/
+[INFO ] 2018-05-23 14:58:58.183 [pool-1-thread-1] WalletHubApp - URL: https://wallethub.com/
+[INFO ] 2018-05-23 14:59:02.030 [pool-1-thread-1] WalletHubApp - Wallethub opened successfully
+[DEBUG] 2018-05-23 14:59:02.032 [pool-1-thread-1] WalletHubApp - Login into the portal with email: pthewizard@gmail.com and password: Abcd123*
+[INFO ] 2018-05-23 14:59:08.631 [pool-1-thread-1] WalletHubApp - Login successful
+[INFO ] 2018-05-23 14:59:08.654 [pool-1-thread-1] WalletHubApp - Element is visible
+[INFO ] 2018-05-23 14:59:08.654 [pool-1-thread-1] WalletHubReviewInsurance - Login is successful
+[INFO ] 2018-05-23 14:59:08.703 [pool-1-thread-1] WalletHubReviewInsurance - Navigating to http://wallethub.com/profile/test_insurance_company/
+[INFO ] 2018-05-23 14:59:08.703 [pool-1-thread-1] WalletHubApp - Navigating to url: http://wallethub.com/profile/test_insurance_company/
+[ERROR] 2018-05-23 14:59:09.250 [pool-1-thread-1] WalletHubReviewInsurance - Error occurred
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : An unknown error has ocured.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Prasantas-MacBook-Pro.local', ip: 'fe80:0:0:0:ce5:8a3a:4ef6:3374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/66/r6f0wntx1h5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: dfac24195c08eadd0a46d85abe556f3d
+*** Element info: {Using=xpath, value=//a[contains(text(),'Credit Cards')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_112]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_112]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_112]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_112]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361) ~[selenium-api-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69) ~[selenium-support-3.8.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-3.8.1.jar:?]
+	at com.sun.proxy.$Proxy26.isDisplayed(Unknown Source) ~[?:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:301) ~[selenium-support-3.8.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:43) ~[selenium-support-3.8.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287) ~[selenium-support-3.8.1.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:284) ~[selenium-support-3.8.1.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208) ~[selenium-support-3.8.1.jar:?]
+	at io.jbehavetutorials.appmodule.wallethub.WalletHubApp.navigate(WalletHubApp.java:140) ~[classes/:?]
+	at io.jbehavetutorials.steps.wallethub.WalletHubReviewInsurance.iNavigateToReviewPage(WalletHubReviewInsurance.java:95) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_112]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_112]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_112]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_112]
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:743) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:351) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1165) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:1032) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1097) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:962) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:867) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:843) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:427) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:398) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266) [jbehave-core-4.3.2.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_112]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_112]
+[ERROR] 2018-05-23 14:59:09.280 [pool-1-thread-1] WalletHubReviewInsurance - Error occurred
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : An unknown error has ocured.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Prasantas-MacBook-Pro.local', ip: 'fe80:0:0:0:ce5:8a3a:4ef6:3374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/66/r6f0wntx1h5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: dfac24195c08eadd0a46d85abe556f3d
+*** Element info: {Using=xpath, value=//div[@class='reviews']/div[not(@class='reviews-none')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_112]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_112]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_112]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_112]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:477) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356) ~[selenium-api-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:359) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:85) ~[selenium-support-3.8.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36) ~[selenium-support-3.8.1.jar:?]
+	at com.sun.proxy.$Proxy27.size(Unknown Source) ~[?:?]
+	at io.jbehavetutorials.pageobjects.wallethub.ReviewPage.getReviewCount(ReviewPage.java:19) ~[classes/:?]
+	at io.jbehavetutorials.steps.wallethub.WalletHubReviewInsurance.iCountTheExistingReviews(WalletHubReviewInsurance.java:107) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_112]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_112]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_112]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_112]
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:743) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:351) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1165) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:1032) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1097) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:962) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:867) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:843) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:427) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:398) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266) [jbehave-core-4.3.2.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_112]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_112]
+[INFO ] 2018-05-23 14:59:09.283 [pool-1-thread-1] WalletHubReviewInsurance - Navigating to https://wallethub.com/profile/pthewizard/reviews/
+[INFO ] 2018-05-23 14:59:09.284 [pool-1-thread-1] WalletHubApp - Navigating to url: https://wallethub.com/profile/pthewizard/reviews/
+[ERROR] 2018-05-23 14:59:09.290 [pool-1-thread-1] WalletHubReviewInsurance - Error occurred
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : An unknown error has ocured.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Prasantas-MacBook-Pro.local', ip: 'fe80:0:0:0:ce5:8a3a:4ef6:3374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/66/r6f0wntx1h5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: dfac24195c08eadd0a46d85abe556f3d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_112]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_112]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_112]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_112]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:912) ~[selenium-remote-driver-3.8.1.jar:?]
+	at io.jbehavetutorials.appmodule.wallethub.WalletHubApp.navigate(WalletHubApp.java:139) ~[classes/:?]
+	at io.jbehavetutorials.steps.wallethub.WalletHubReviewInsurance.iNavigateToInsuranceCompany(WalletHubReviewInsurance.java:121) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_112]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_112]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_112]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_112]
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:743) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:351) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1165) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:1032) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1097) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:962) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:867) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:843) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:427) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:398) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266) [jbehave-core-4.3.2.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_112]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_112]
+[DEBUG] 2018-05-23 14:59:09.295 [pool-1-thread-1] WalletHubReviewInsurance - Closing unwanted popup
+[INFO ] 2018-05-23 14:59:09.300 [pool-1-thread-1] WalletHubApp - Element not present in current DOM
+[INFO ] 2018-05-23 14:59:09.307 [pool-1-thread-1] WalletHubApp - Element not present in current DOM
+[INFO ] 2018-05-23 14:59:09.307 [pool-1-thread-1] WalletHubReviewInsurance - Click Write a Review button
+[ERROR] 2018-05-23 14:59:09.313 [pool-1-thread-1] WalletHubReviewInsurance - Error occurred
+org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : An unknown error has ocured.}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Prasantas-MacBook-Pro.local', ip: 'fe80:0:0:0:ce5:8a3a:4ef6:3374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/66/r6f0wntx1h5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: dfac24195c08eadd0a46d85abe556f3d
+*** Element info: {Using=xpath, value=//a[@class='whbl-link']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_112]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_112]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_112]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_112]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361) ~[selenium-api-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69) ~[selenium-support-3.8.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-3.8.1.jar:?]
+	at com.sun.proxy.$Proxy26.click(Unknown Source) ~[?:?]
+	at io.jbehavetutorials.steps.wallethub.WalletHubReviewInsurance.iClickWriteAReviewButton(WalletHubReviewInsurance.java:137) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_112]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_112]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_112]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_112]
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:743) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:351) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1165) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:1032) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1097) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:962) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:867) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:843) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:427) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:398) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266) [jbehave-core-4.3.2.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_112]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_112]
+[INFO ] 2018-05-23 14:59:09.323 [pool-1-thread-1] WalletHubApp - Element not present in current DOM
+[DEBUG] 2018-05-23 15:00:09.522 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 15:00:09.525 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 15:00:09.526 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 15:00:12.551 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 15:00:12.551 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 15:00:12.551 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 15:00:14.108 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 15:00:14.108 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 15:00:14.108 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 15:00:15.643 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 15:00:15.643 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 15:00:15.643 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[INFO ] 2018-05-23 15:00:16.951 [pool-1-thread-1] WalletHubApp - Initializing page objects...
+[INFO ] 2018-05-23 15:00:17.046 [pool-1-thread-1] WalletHubApp - Page object initialization finished
+[INFO ] 2018-05-23 15:00:17.047 [pool-1-thread-1] WalletHubReviewInsurance - Opening https://wallethub.com/
+[DEBUG] 2018-05-23 15:00:17.048 [pool-1-thread-1] WalletHubApp - Opening wallethub url: https://wallethub.com/
+[INFO ] 2018-05-23 15:00:17.048 [pool-1-thread-1] WalletHubApp - URL: https://wallethub.com/
+[INFO ] 2018-05-23 15:00:23.019 [pool-1-thread-1] WalletHubApp - Wallethub opened successfully
+[DEBUG] 2018-05-23 15:00:23.022 [pool-1-thread-1] WalletHubApp - Login into the portal with email: pthewizard@gmail.com and password: Abcd123*
+[INFO ] 2018-05-23 15:00:29.567 [pool-1-thread-1] WalletHubApp - Login successful
+[INFO ] 2018-05-23 15:00:29.587 [pool-1-thread-1] WalletHubApp - Element is visible
+[INFO ] 2018-05-23 15:00:29.587 [pool-1-thread-1] WalletHubReviewInsurance - Login is successful
+[INFO ] 2018-05-23 15:00:29.644 [pool-1-thread-1] WalletHubReviewInsurance - Navigating to http://wallethub.com/profile/test_insurance_company/
+[INFO ] 2018-05-23 15:01:09.517 [pool-1-thread-1] WalletHubApp - Navigating to url: http://wallethub.com/profile/test_insurance_company/
+[INFO ] 2018-05-23 15:01:18.786 [pool-1-thread-1] WalletHubReviewInsurance - Current reviewHealthPolicy count: 40
+[INFO ] 2018-05-23 15:01:18.788 [pool-1-thread-1] WalletHubReviewInsurance - Navigating to https://wallethub.com/profile/pthewizard/reviews/
+[INFO ] 2018-05-23 15:01:18.788 [pool-1-thread-1] WalletHubApp - Navigating to url: https://wallethub.com/profile/pthewizard/reviews/
+[DEBUG] 2018-05-23 15:01:20.923 [pool-1-thread-1] WalletHubReviewInsurance - Closing unwanted popup
+[INFO ] 2018-05-23 15:01:20.955 [pool-1-thread-1] WalletHubApp - Element is not visible
+[INFO ] 2018-05-23 15:01:20.988 [pool-1-thread-1] WalletHubApp - Element is visible
+[INFO ] 2018-05-23 15:01:25.461 [pool-1-thread-1] WalletHubReviewInsurance - Click Write a Review button
+[ERROR] 2018-05-23 15:01:35.524 [pool-1-thread-1] WalletHubReviewInsurance - Error occurred
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='whbl-link']"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Prasantas-MacBook-Pro.local', ip: 'fe80:0:0:0:ce5:8a3a:4ef6:3374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/66/r6f0wntx1h5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: bfb49bc490b328f54c3860a8811e000f
+*** Element info: {Using=xpath, value=//a[@class='whbl-link']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_112]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_112]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_112]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_112]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361) ~[selenium-api-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69) ~[selenium-support-3.8.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-3.8.1.jar:?]
+	at com.sun.proxy.$Proxy26.click(Unknown Source) ~[?:?]
+	at io.jbehavetutorials.steps.wallethub.WalletHubReviewInsurance.iClickWriteAReviewButton(WalletHubReviewInsurance.java:137) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_112]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_112]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_112]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_112]
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:743) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:351) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1165) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:1032) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1097) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:962) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:867) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:843) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:427) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:398) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266) [jbehave-core-4.3.2.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_112]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_112]
+[INFO ] 2018-05-23 15:01:45.550 [pool-1-thread-1] WalletHubApp - Element not present in current DOM
+[DEBUG] 2018-05-23 15:03:24.813 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 15:03:24.815 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 15:03:24.815 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 15:03:27.842 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 15:03:27.843 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 15:03:27.843 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 15:03:29.113 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 15:03:29.113 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 15:03:29.113 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 15:03:30.325 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 15:03:30.326 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 15:03:30.326 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[INFO ] 2018-05-23 15:03:31.460 [pool-1-thread-1] WalletHubApp - Initializing page objects...
+[INFO ] 2018-05-23 15:03:31.537 [pool-1-thread-1] WalletHubApp - Page object initialization finished
+[INFO ] 2018-05-23 15:03:31.540 [pool-1-thread-1] WalletHubReviewInsurance - Opening https://wallethub.com/
+[DEBUG] 2018-05-23 15:03:31.541 [pool-1-thread-1] WalletHubApp - Opening wallethub url: https://wallethub.com/
+[INFO ] 2018-05-23 15:03:31.541 [pool-1-thread-1] WalletHubApp - URL: https://wallethub.com/
+[INFO ] 2018-05-23 15:03:35.531 [pool-1-thread-1] WalletHubApp - Wallethub opened successfully
+[DEBUG] 2018-05-23 15:03:35.533 [pool-1-thread-1] WalletHubApp - Login into the portal with email: pthewizard@gmail.com and password: Abcd123*
+[INFO ] 2018-05-23 15:03:42.138 [pool-1-thread-1] WalletHubApp - Login successful
+[INFO ] 2018-05-23 15:03:42.163 [pool-1-thread-1] WalletHubApp - Element is visible
+[INFO ] 2018-05-23 15:03:42.163 [pool-1-thread-1] WalletHubReviewInsurance - Login is successful
+[INFO ] 2018-05-23 15:03:42.225 [pool-1-thread-1] WalletHubReviewInsurance - Navigating to http://wallethub.com/profile/test_insurance_company/
+[INFO ] 2018-05-23 15:03:42.225 [pool-1-thread-1] WalletHubApp - Navigating to url: http://wallethub.com/profile/test_insurance_company/
+[INFO ] 2018-05-23 15:03:46.128 [pool-1-thread-1] WalletHubReviewInsurance - Current reviewHealthPolicy count: 40
+[INFO ] 2018-05-23 15:03:46.130 [pool-1-thread-1] WalletHubReviewInsurance - Navigating to https://wallethub.com/profile/pthewizard/reviews/
+[INFO ] 2018-05-23 15:03:46.130 [pool-1-thread-1] WalletHubApp - Navigating to url: https://wallethub.com/profile/pthewizard/reviews/
+[DEBUG] 2018-05-23 15:03:48.164 [pool-1-thread-1] WalletHubReviewInsurance - Closing unwanted popup
+[INFO ] 2018-05-23 15:03:48.192 [pool-1-thread-1] WalletHubApp - Element is not visible
+[INFO ] 2018-05-23 15:03:48.230 [pool-1-thread-1] WalletHubApp - Element is visible
+[INFO ] 2018-05-23 15:03:49.440 [pool-1-thread-1] WalletHubReviewInsurance - Click Write a Review button
+[ERROR] 2018-05-23 15:03:59.503 [pool-1-thread-1] WalletHubReviewInsurance - Error occurred
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='whbl-link']"}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011),platform=Mac OS X 10.13.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'Prasantas-MacBook-Pro.local', ip: 'fe80:0:0:0:ce5:8a3a:4ef6:3374%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552518 (183d19265345f5..., userDataDir: /var/folders/66/r6f0wntx1h5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 3dddbd4acf2d89360f41b0613bfd71bd
+*** Element info: {Using=xpath, value=//a[@class='whbl-link']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_112]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_112]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_112]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_112]
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361) ~[selenium-api-3.8.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363) ~[selenium-remote-driver-3.8.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69) ~[selenium-support-3.8.1.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-3.8.1.jar:?]
+	at com.sun.proxy.$Proxy26.click(Unknown Source) ~[?:?]
+	at io.jbehavetutorials.steps.wallethub.WalletHubReviewInsurance.iClickWriteAReviewButton(WalletHubReviewInsurance.java:137) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_112]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_112]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_112]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_112]
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:743) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:351) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1165) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:1032) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1097) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:962) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:867) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:843) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:427) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:398) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266) [jbehave-core-4.3.2.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_112]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_112]
+[DEBUG] 2018-05-23 15:05:43.339 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 15:05:43.341 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 15:05:43.341 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 15:05:46.148 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 15:05:46.148 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 15:05:46.148 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 15:05:47.385 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 15:05:47.385 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 15:05:47.385 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 15:05:48.580 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 15:05:48.580 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 15:05:48.580 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[INFO ] 2018-05-23 15:05:49.754 [pool-1-thread-1] WalletHubApp - Initializing page objects...
+[INFO ] 2018-05-23 15:05:49.823 [pool-1-thread-1] WalletHubApp - Page object initialization finished
+[INFO ] 2018-05-23 15:05:49.824 [pool-1-thread-1] WalletHubReviewInsurance - Opening https://wallethub.com/
+[DEBUG] 2018-05-23 15:05:49.825 [pool-1-thread-1] WalletHubApp - Opening wallethub url: https://wallethub.com/
+[INFO ] 2018-05-23 15:05:49.825 [pool-1-thread-1] WalletHubApp - URL: https://wallethub.com/
+[INFO ] 2018-05-23 15:05:54.193 [pool-1-thread-1] WalletHubApp - Wallethub opened successfully
+[DEBUG] 2018-05-23 15:05:54.194 [pool-1-thread-1] WalletHubApp - Login into the portal with email: pthewizard@gmail.com and password: Abcd123*
+[INFO ] 2018-05-23 15:06:01.400 [pool-1-thread-1] WalletHubApp - Login successful
+[INFO ] 2018-05-23 15:06:01.425 [pool-1-thread-1] WalletHubApp - Element is visible
+[INFO ] 2018-05-23 15:06:01.425 [pool-1-thread-1] WalletHubReviewInsurance - Login is successful
+[INFO ] 2018-05-23 15:06:01.538 [pool-1-thread-1] WalletHubReviewInsurance - Navigating to http://wallethub.com/profile/test_insurance_company/
+[INFO ] 2018-05-23 15:06:01.539 [pool-1-thread-1] WalletHubApp - Navigating to url: http://wallethub.com/profile/test_insurance_company/
+[INFO ] 2018-05-23 15:06:04.780 [pool-1-thread-1] WalletHubReviewInsurance - Current reviewHealthPolicy count: 40
+[INFO ] 2018-05-23 15:06:04.781 [pool-1-thread-1] WalletHubReviewInsurance - Navigating to https://wallethub.com/profile/pthewizard/reviews/
+[INFO ] 2018-05-23 15:09:34.119 [pool-1-thread-1] WalletHubApp - Navigating to url: https://wallethub.com/profile/pthewizard/reviews/
+[DEBUG] 2018-05-23 15:10:20.316 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 15:10:20.318 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 15:10:20.318 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 15:10:23.060 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 15:10:23.060 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 15:10:23.060 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 15:10:24.392 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 15:10:24.393 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 15:10:24.393 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 15:10:25.599 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 15:10:25.599 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 15:10:25.600 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[INFO ] 2018-05-23 15:10:27.027 [pool-1-thread-1] WalletHubApp - Initializing page objects...
+[INFO ] 2018-05-23 15:10:27.106 [pool-1-thread-1] WalletHubApp - Page object initialization finished
+[INFO ] 2018-05-23 15:10:27.107 [pool-1-thread-1] WalletHubReviewInsurance - Opening https://wallethub.com/
+[DEBUG] 2018-05-23 15:10:27.107 [pool-1-thread-1] WalletHubApp - Opening wallethub url: https://wallethub.com/
+[INFO ] 2018-05-23 15:10:27.108 [pool-1-thread-1] WalletHubApp - URL: https://wallethub.com/
+[INFO ] 2018-05-23 15:10:30.668 [pool-1-thread-1] WalletHubApp - Wallethub opened successfully
+[DEBUG] 2018-05-23 15:10:30.670 [pool-1-thread-1] WalletHubApp - Login into the portal with email: pthewizard@gmail.com and password: Abcd123*
+[INFO ] 2018-05-23 15:10:44.535 [pool-1-thread-1] WalletHubApp - Login successful
+[INFO ] 2018-05-23 15:10:44.554 [pool-1-thread-1] WalletHubApp - Element is visible
+[INFO ] 2018-05-23 15:10:44.554 [pool-1-thread-1] WalletHubReviewInsurance - Login is successful
+[INFO ] 2018-05-23 15:10:44.616 [pool-1-thread-1] WalletHubReviewInsurance - Navigating to https://wallethub.com/profile/pthewizard/reviews/
+[INFO ] 2018-05-23 15:10:44.616 [pool-1-thread-1] WalletHubApp - Navigating to url: https://wallethub.com/profile/pthewizard/reviews/
+[INFO ] 2018-05-23 15:10:46.275 [pool-1-thread-1] WalletHubReviewInsurance - Current reviewHealthPolicy count: 1
+[INFO ] 2018-05-23 15:10:46.277 [pool-1-thread-1] WalletHubReviewInsurance - Navigating to http://wallethub.com/profile/test_insurance_company/
+[INFO ] 2018-05-23 15:11:05.064 [pool-1-thread-1] WalletHubApp - Navigating to url: http://wallethub.com/profile/test_insurance_company/
+[DEBUG] 2018-05-23 15:11:16.717 [pool-1-thread-1] WalletHubReviewInsurance - Closing unwanted popup
+[INFO ] 2018-05-23 15:11:17.249 [pool-1-thread-1] WalletHubApp - Element is not visible
+[INFO ] 2018-05-23 15:11:17.343 [pool-1-thread-1] WalletHubApp - Element is visible
+[INFO ] 2018-05-23 15:11:23.761 [pool-1-thread-1] WalletHubReviewInsurance - Click Write a Review button
+[INFO ] 2018-05-23 15:11:46.053 [pool-1-thread-1] WalletHubApp - Element is visible
+[INFO ] 2018-05-23 15:12:06.985 [pool-1-thread-1] WalletHubReviewInsurance - Landed on new review page successfully
+[INFO ] 2018-05-23 15:12:08.989 [pool-1-thread-1] WalletHubReviewInsurance - Select policy Health
+[INFO ] 2018-05-23 15:12:30.137 [pool-1-thread-1] WalletHubReviewInsurance - Apply 5 star(s)
+[INFO ] 2018-05-23 15:12:56.717 [pool-1-thread-1] WalletHubReviewInsurance - Review text: This is my first reviewHealthPolicy.
+[INFO ] 2018-05-23 15:13:08.297 [pool-1-thread-1] WalletHubReviewInsurance - Submit review
+[INFO ] 2018-05-23 15:13:45.882 [pool-1-thread-1] WalletHubReviewInsurance - Checking confirmation message: Awesome
+[DEBUG] 2018-05-23 15:16:41.842 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 15:16:41.846 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 15:16:41.848 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 15:16:44.980 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 15:16:44.980 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 15:16:44.980 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 15:16:46.177 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 15:16:46.178 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 15:16:46.178 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 15:16:47.348 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 15:16:47.349 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 15:16:47.349 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[INFO ] 2018-05-23 15:16:48.426 [pool-1-thread-1] WalletHubApp - Initializing page objects...
+[INFO ] 2018-05-23 15:16:48.498 [pool-1-thread-1] WalletHubApp - Page object initialization finished
+[INFO ] 2018-05-23 15:16:48.499 [pool-1-thread-1] WalletHubReviewInsurance - Opening https://wallethub.com/
+[DEBUG] 2018-05-23 15:16:48.500 [pool-1-thread-1] WalletHubApp - Opening wallethub url: https://wallethub.com/
+[INFO ] 2018-05-23 15:16:48.500 [pool-1-thread-1] WalletHubApp - URL: https://wallethub.com/
+[INFO ] 2018-05-23 15:16:54.018 [pool-1-thread-1] WalletHubApp - Wallethub opened successfully
+[DEBUG] 2018-05-23 15:16:54.019 [pool-1-thread-1] WalletHubApp - Login into the portal with email: pthewizard@gmail.com and password: Abcd123*
+[INFO ] 2018-05-23 15:17:00.327 [pool-1-thread-1] WalletHubApp - Login successful
+[INFO ] 2018-05-23 15:17:00.346 [pool-1-thread-1] WalletHubApp - Element is visible
+[INFO ] 2018-05-23 15:17:00.346 [pool-1-thread-1] WalletHubReviewInsurance - Login is successful
+[INFO ] 2018-05-23 15:17:00.411 [pool-1-thread-1] WalletHubReviewInsurance - Navigating to https://wallethub.com/profile/pthewizard/reviews/
+[INFO ] 2018-05-23 15:17:00.411 [pool-1-thread-1] WalletHubApp - Navigating to url: https://wallethub.com/profile/pthewizard/reviews/
+[INFO ] 2018-05-23 15:17:02.082 [pool-1-thread-1] WalletHubReviewInsurance - Current reviewHealthPolicy count: 1
+[INFO ] 2018-05-23 15:17:02.083 [pool-1-thread-1] WalletHubReviewInsurance - Navigating to http://wallethub.com/profile/test_insurance_company/
+[INFO ] 2018-05-23 15:19:19.955 [pool-1-thread-1] WalletHubApp - Navigating to url: http://wallethub.com/profile/test_insurance_company/
+[DEBUG] 2018-05-23 15:19:24.511 [pool-1-thread-1] WalletHubReviewInsurance - Closing unwanted popup
+[INFO ] 2018-05-23 15:19:24.543 [pool-1-thread-1] WalletHubApp - Element is not visible
+[INFO ] 2018-05-23 15:19:24.584 [pool-1-thread-1] WalletHubApp - Element is visible
+[INFO ] 2018-05-23 15:19:25.827 [pool-1-thread-1] WalletHubReviewInsurance - Click Write a Review button
+[INFO ] 2018-05-23 15:19:27.999 [pool-1-thread-1] WalletHubApp - Element is visible
+[INFO ] 2018-05-23 15:19:28.000 [pool-1-thread-1] WalletHubReviewInsurance - Landed on new review page successfully
+[INFO ] 2018-05-23 15:19:28.001 [pool-1-thread-1] WalletHubReviewInsurance - Select policy Health
+[INFO ] 2018-05-23 15:19:28.750 [pool-1-thread-1] WalletHubReviewInsurance - Apply 5 star(s)
+[INFO ] 2018-05-23 15:19:28.839 [pool-1-thread-1] WalletHubReviewInsurance - Review text: This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.
+[INFO ] 2018-05-23 15:19:43.020 [pool-1-thread-1] WalletHubReviewInsurance - Submit review
+[INFO ] 2018-05-23 15:20:09.352 [pool-1-thread-1] WalletHubReviewInsurance - Checking confirmation message: Awesome
+[DEBUG] 2018-05-23 15:23:04.325 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 15:23:04.327 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 15:23:04.327 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 15:23:07.057 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 15:23:07.057 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 15:23:07.057 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 15:23:08.207 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 15:23:08.207 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 15:23:08.208 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 15:23:09.351 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 15:23:09.351 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 15:23:09.351 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[INFO ] 2018-05-23 15:23:10.415 [pool-1-thread-1] WalletHubApp - Initializing page objects...
+[INFO ] 2018-05-23 15:23:10.515 [pool-1-thread-1] WalletHubApp - Page object initialization finished
+[INFO ] 2018-05-23 15:23:10.517 [pool-1-thread-1] WalletHubReviewInsurance - Opening https://wallethub.com/
+[DEBUG] 2018-05-23 15:23:10.517 [pool-1-thread-1] WalletHubApp - Opening wallethub url: https://wallethub.com/
+[INFO ] 2018-05-23 15:23:10.518 [pool-1-thread-1] WalletHubApp - URL: https://wallethub.com/
+[INFO ] 2018-05-23 15:23:14.397 [pool-1-thread-1] WalletHubApp - Wallethub opened successfully
+[DEBUG] 2018-05-23 15:23:14.399 [pool-1-thread-1] WalletHubApp - Login into the portal with email: pthewizard@gmail.com and password: Abcd123*
+[INFO ] 2018-05-23 15:23:21.258 [pool-1-thread-1] WalletHubApp - Login successful
+[INFO ] 2018-05-23 15:23:21.279 [pool-1-thread-1] WalletHubApp - Element is visible
+[INFO ] 2018-05-23 15:23:21.280 [pool-1-thread-1] WalletHubReviewInsurance - Login is successful
+[INFO ] 2018-05-23 15:23:21.346 [pool-1-thread-1] WalletHubReviewInsurance - Navigating to https://wallethub.com/profile/pthewizard/reviews/
+[INFO ] 2018-05-23 15:23:21.346 [pool-1-thread-1] WalletHubApp - Navigating to url: https://wallethub.com/profile/pthewizard/reviews/
+[INFO ] 2018-05-23 15:23:32.870 [pool-1-thread-1] WalletHubReviewInsurance - Current reviewHealthPolicy count: 0
+[INFO ] 2018-05-23 15:23:32.871 [pool-1-thread-1] WalletHubReviewInsurance - Navigating to http://wallethub.com/profile/test_insurance_company/
+[INFO ] 2018-05-23 15:23:41.931 [pool-1-thread-1] WalletHubApp - Navigating to url: http://wallethub.com/profile/test_insurance_company/
+[DEBUG] 2018-05-23 15:23:45.847 [pool-1-thread-1] WalletHubReviewInsurance - Closing unwanted popup
+[INFO ] 2018-05-23 15:23:45.877 [pool-1-thread-1] WalletHubApp - Element is not visible
+[INFO ] 2018-05-23 15:23:45.906 [pool-1-thread-1] WalletHubApp - Element is visible
+[INFO ] 2018-05-23 15:23:47.167 [pool-1-thread-1] WalletHubReviewInsurance - Click Write a Review button
+[INFO ] 2018-05-23 15:23:48.759 [pool-1-thread-1] WalletHubApp - Element is visible
+[INFO ] 2018-05-23 15:23:48.760 [pool-1-thread-1] WalletHubReviewInsurance - Landed on new review page successfully
+[INFO ] 2018-05-23 15:23:48.761 [pool-1-thread-1] WalletHubReviewInsurance - Select policy Health
+[INFO ] 2018-05-23 15:23:50.007 [pool-1-thread-1] WalletHubReviewInsurance - Apply 5 star(s)
+[INFO ] 2018-05-23 15:23:50.080 [pool-1-thread-1] WalletHubReviewInsurance - Review text: This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.This is my first reviewHealthPolicy.
+[INFO ] 2018-05-23 15:23:53.603 [pool-1-thread-1] WalletHubReviewInsurance - Submit review
+[INFO ] 2018-05-23 15:23:58.585 [pool-1-thread-1] WalletHubReviewInsurance - Checking confirmation message: Awesome!
+[INFO ] 2018-05-23 15:24:03.332 [pool-1-thread-1] WalletHubReviewInsurance - Review submission confirmed
+[INFO ] 2018-05-23 15:24:18.693 [pool-1-thread-1] WalletHubReviewInsurance - Validating submitted review
+[INFO ] 2018-05-23 15:24:20.615 [pool-1-thread-1] WalletHubApp - Navigating to url: https://wallethub.com/profile/pthewizard/reviews/
+[INFO ] 2018-05-23 15:24:27.779 [pool-1-thread-1] WalletHubReviewInsurance - New reviewHealthPolicy count: 1
+[INFO ] 2018-05-23 15:24:37.846 [pool-1-thread-1] WalletHubReviewInsurance - Review feed added successfully
+[DEBUG] 2018-05-23 21:31:25.897 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 21:31:25.900 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 21:31:25.900 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 21:31:28.305 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 21:31:28.306 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 21:31:28.306 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 21:31:29.437 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 21:31:29.437 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 21:31:29.438 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 21:31:30.616 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 21:31:30.617 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 21:31:30.617 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[INFO ] 2018-05-23 21:31:31.701 [pool-1-thread-1] WalletHubApp - Initializing page objects...
+[ERROR] 2018-05-23 21:31:31.766 [pool-1-thread-1] WalletHubReviewInsurance - Error
+java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:787) ~[guava-23.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:96) ~[selenium-support-3.8.1.jar:?]
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:72) ~[selenium-support-3.8.1.jar:?]
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:46) ~[selenium-support-3.8.1.jar:?]
+	at io.jbehavetutorials.appmodule.wallethub.WalletHubApp.<init>(WalletHubApp.java:44) ~[classes/:?]
+	at io.jbehavetutorials.steps.wallethub.WalletHubReviewInsurance.iHaveAWallerHubTestAccount(WalletHubReviewInsurance.java:43) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_112]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_112]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_112]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_112]
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:743) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:351) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1165) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:1032) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1097) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:962) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:867) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:843) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:427) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:398) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266) [jbehave-core-4.3.2.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_112]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_112]
+[INFO ] 2018-05-23 21:31:31.775 [pool-1-thread-1] WalletHubReviewInsurance - Opening https://wallethub.com/
+[DEBUG] 2018-05-23 21:34:31.011 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 21:34:31.017 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 21:34:31.019 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 21:34:52.577 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 21:34:52.578 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 21:34:52.578 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 21:35:06.065 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 21:35:06.066 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 21:35:06.066 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 21:35:19.643 [pool-1-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 21:35:19.644 [pool-1-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 21:35:19.644 [pool-1-thread-1] BrowserFactory - Method called: createChromeDriver
+[INFO ] 2018-05-23 21:35:41.572 [pool-1-thread-1] WalletHubApp - Initializing page objects...
+[DEBUG] 2018-05-23 21:41:55.323 [pool-2-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 21:41:55.333 [pool-2-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 21:41:55.334 [pool-2-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 21:42:04.142 [pool-2-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 21:42:04.143 [pool-2-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 21:42:04.144 [pool-2-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 21:42:12.492 [pool-2-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 21:42:12.493 [pool-2-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 21:42:12.493 [pool-2-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 21:42:44.167 [pool-2-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 21:42:44.168 [pool-2-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 21:42:44.168 [pool-2-thread-1] BrowserFactory - Method called: createChromeDriver
+[INFO ] 2018-05-23 21:42:49.489 [pool-2-thread-1] WalletHubApp - Initializing page objects...
+[DEBUG] 2018-05-23 21:47:02.556 [pool-2-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 21:47:02.558 [pool-2-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 21:47:02.558 [pool-2-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 21:47:09.585 [pool-2-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 21:47:09.586 [pool-2-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 21:47:09.586 [pool-2-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 21:47:14.501 [pool-2-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 21:47:14.501 [pool-2-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 21:47:14.502 [pool-2-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 21:48:22.124 [pool-2-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 21:48:22.125 [pool-2-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 21:48:22.126 [pool-2-thread-1] BrowserFactory - Method called: createChromeDriver
+[INFO ] 2018-05-23 21:50:13.374 [pool-2-thread-1] WalletHubApp - Initializing page objects...
+[ERROR] 2018-05-23 21:50:13.428 [pool-2-thread-1] WalletHubReviewInsurance - Error
+java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:787) ~[guava-23.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:96) ~[selenium-support-3.8.1.jar:?]
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:72) ~[selenium-support-3.8.1.jar:?]
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:46) ~[selenium-support-3.8.1.jar:?]
+	at io.jbehavetutorials.appmodule.wallethub.WalletHubApp.<init>(WalletHubApp.java:44) ~[classes/:?]
+	at io.jbehavetutorials.steps.wallethub.WalletHubReviewInsurance.iHaveAWallerHubTestAccount(WalletHubReviewInsurance.java:28) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_112]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_112]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_112]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_112]
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:743) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:351) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1165) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:1032) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1097) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:962) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:867) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:843) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:427) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:398) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266) [jbehave-core-4.3.2.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_112]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_112]
+[INFO ] 2018-05-23 21:50:13.440 [pool-2-thread-1] WalletHubReviewInsurance - Opening https://wallethub.com/
+[DEBUG] 2018-05-23 21:50:26.330 [pool-2-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 21:50:26.334 [pool-2-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 21:50:26.335 [pool-2-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 21:51:23.474 [pool-2-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 21:51:23.475 [pool-2-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 21:51:23.475 [pool-2-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 21:51:29.107 [pool-2-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 21:51:29.107 [pool-2-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 21:51:29.107 [pool-2-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 21:51:36.569 [pool-2-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 21:51:36.570 [pool-2-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 21:51:36.570 [pool-2-thread-1] BrowserFactory - Method called: createChromeDriver
+[INFO ] 2018-05-23 21:52:26.344 [pool-2-thread-1] WalletHubApp - Initializing page objects...
+[DEBUG] 2018-05-23 23:10:53.920 [pool-2-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 23:10:53.923 [pool-2-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 23:10:53.923 [pool-2-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 23:10:57.626 [pool-2-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 23:10:57.626 [pool-2-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 23:10:57.626 [pool-2-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 23:10:59.144 [pool-2-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 23:10:59.145 [pool-2-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 23:10:59.145 [pool-2-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 23:11:00.531 [pool-2-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 23:11:00.531 [pool-2-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 23:11:00.532 [pool-2-thread-1] BrowserFactory - Method called: createChromeDriver
+[INFO ] 2018-05-23 23:11:04.471 [pool-2-thread-1] HelperClass - Sending 'GET' request to URL : http://restapi.demoqa.com/utilities/weather/city/Kolkata
+[INFO ] 2018-05-23 23:11:04.473 [pool-2-thread-1] HelperClass - Response Code : 200
+[DEBUG] 2018-05-23 23:11:04.474 [pool-2-thread-1] HelperClass - HTTP Response: {    "City": "Kolkata",    "Temperature": "28 Degree celsius",    "Humidity": "83 Percent",    "WeatherDescription": "haze",    "WindSpeed": "3.6 Km per hour",    "WindDirectionDegree": "170 Degree"}
+[INFO ] 2018-05-23 23:11:05.069 [pool-2-thread-1] HelperClass - Sending 'GET' request to URL : http://restapi.demoqa.com/utilities/weather/city/ABC
+[INFO ] 2018-05-23 23:11:05.070 [pool-2-thread-1] HelperClass - Response Code : 400
+[ERROR] 2018-05-23 23:11:05.070 [pool-2-thread-1] WeatherAPITest - Error occurred
+java.io.IOException: Server returned HTTP response code: 400 for URL: http://restapi.demoqa.com/utilities/weather/city/ABC
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_112]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_112]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_112]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_112]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1926) ~[?:1.8.0_112]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1921) ~[?:1.8.0_112]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_112]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1920) ~[?:1.8.0_112]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1490) ~[?:1.8.0_112]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474) ~[?:1.8.0_112]
+	at io.jbehavetutorials.testutility.HelperClass.sendHttpGet(HelperClass.java:56) ~[classes/:?]
+	at io.jbehavetutorials.steps.weatherapi.WeatherAPITest.iSendHTTPGETRequest(WeatherAPITest.java:26) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_112]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_112]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_112]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_112]
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:743) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:351) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1165) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:1032) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$ExamplePerformableScenario.perform(PerformableTree.java:1097) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:962) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:867) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:843) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:427) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:398) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:292) [jbehave-core-4.3.2.jar:?]
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:266) [jbehave-core-4.3.2.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_112]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_112]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_112]
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: http://restapi.demoqa.com/utilities/weather/city/ABC
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876) ~[?:1.8.0_112]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474) ~[?:1.8.0_112]
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_112]
+	at io.jbehavetutorials.testutility.HelperClass.sendHttpGet(HelperClass.java:52) ~[classes/:?]
+	... 21 more
+[DEBUG] 2018-05-23 23:15:59.783 [pool-2-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 23:15:59.787 [pool-2-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 23:15:59.787 [pool-2-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 23:16:02.710 [pool-2-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 23:16:02.710 [pool-2-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 23:16:02.710 [pool-2-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 23:16:04.351 [pool-2-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 23:16:04.351 [pool-2-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 23:16:04.351 [pool-2-thread-1] BrowserFactory - Method called: createChromeDriver
+[DEBUG] 2018-05-23 23:16:05.652 [pool-2-thread-1] BrowserFactory - Method called: getDriver
+[INFO ] 2018-05-23 23:16:05.652 [pool-2-thread-1] BrowserFactory - Launching driver: googlechrome
+[DEBUG] 2018-05-23 23:16:05.652 [pool-2-thread-1] BrowserFactory - Method called: createChromeDriver
+[INFO ] 2018-05-23 23:16:08.163 [pool-2-thread-1] HelperClass - Sending 'GET' request to URL : http://restapi.demoqa.com/utilities/weather/city/Kolkata
+[INFO ] 2018-05-23 23:16:08.164 [pool-2-thread-1] HelperClass - Response Code : 200
+[DEBUG] 2018-05-23 23:16:08.168 [pool-2-thread-1] HelperClass - HTTP Response: {    "City": "Kolkata",    "Temperature": "28 Degree celsius",    "Humidity": "83 Percent",    "WeatherDescription": "haze",    "WindSpeed": "3.6 Km per hour",    "WindDirectionDegree": "170 Degree"}
+[INFO ] 2018-05-23 23:16:09.147 [pool-2-thread-1] HelperClass - Sending 'GET' request to URL : http://restapi.demoqa.com/utilities/weather/city/ABC
+[INFO ] 2018-05-23 23:16:09.148 [pool-2-thread-1] HelperClass - Response Code : 400
+[DEBUG] 2018-05-23 23:16:09.166 [pool-2-thread-1] HelperClass - HTTP Response: {    "FaultId": "FAULT_INTERNAL",    "fault": "An internal error occured while servicing the request"}

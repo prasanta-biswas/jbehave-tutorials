@@ -1,0 +1,5 @@
+
+psquid:UselessImportCheck"BRemove this unused import 'io.jbehavetutorials.constants.Browser'.(ïüÌùÿÿÿÿ8•„õÈ¸,
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(éà÷¥8øêìÈ¸,
+psquid:S1192"ODefine a constant instead of duplicating this literal "Error occurred" 6 times.(²ÌÕ‘ıÿÿÿÿ8é°ïŸ¸,
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(‰ìƒ¬ûÿÿÿÿ8øêìÈ¸,
