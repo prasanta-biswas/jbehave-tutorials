@@ -119,7 +119,7 @@
           </execution>
           <execution>
             <id>embeddable-stories</id>
-            <phase>integration-test</phase>
+            <phase>test</phase>
             <configuration>
               <includes>
                 <include>${embeddables}</include>
