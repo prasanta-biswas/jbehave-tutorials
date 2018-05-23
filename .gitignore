@@ -1,1 +1,6 @@
 /target/
+/.idea/
+/.settings/
+/log/
+/tmp/
+/jbehavetutorials.iml
