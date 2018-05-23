@@ -198,6 +198,8 @@ public class WalletHubReviewInsurance extends CommonSteps {
             logger.info("Checking confirmation message: "+message);
             wallethubApp.waitForVisibilityOf(wallethubApp.writeReviewPage.confirmation);
             String actualConfirmationMessage = wallethubApp.writeReviewPage.getConfirmationText();
+            logger.info("Expected confirmation message: "+message);
+            logger.info("Actual confirmation message: "+actualConfirmationMessage);
             Assert.assertTrue("Confirmation message does not match",actualConfirmationMessage.contains(message));
             logger.info("Review submission confirmed");
         }
