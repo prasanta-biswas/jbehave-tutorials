@@ -11,8 +11,6 @@
     <jbehave.core.version>4.3.2</jbehave.core.version>
     <jbehave.site.version>3.3</jbehave.site.version>
     <embeddables>**/StoryMap.java</embeddables>
-    <!-- to run browser test cases in headless mode -->
-    <headless>true</headless>
   </properties>
 
   <dependencies>
@@ -131,6 +129,12 @@
               <metaFilters>
                 <metaFilter></metaFilter>
               </metaFilters>
+              <systemProperties>
+                <property>
+                  <name>headless</name>
+                  <value>true</value>
+                </property>
+              </systemProperties>
             </configuration>
             <goals>
               <goal>run-stories-as-embeddables</goal>
