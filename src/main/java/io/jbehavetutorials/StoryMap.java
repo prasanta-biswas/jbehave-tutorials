@@ -61,7 +61,7 @@ public class StoryMap extends JUnitStories {
                 new ExamplesTableConverter(examplesTableFactory));
         return new MostUsefulConfiguration()
                 //.usePendingStepStrategy(new FailingUponPendingStep())
-                .useStoryControls(new StoryControls().doDryRun(false))
+                .useStoryControls(new StoryControls().doDryRun(false).doResetStateBeforeScenario(true))
                 .useStoryLoader(new LoadFromClasspath(embeddableClass))
                 .useStoryParser(new RegexStoryParser(examplesTableFactory))
                 .useStoryReporterBuilder(new StoryReporterBuilder()

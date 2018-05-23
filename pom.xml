@@ -12,7 +12,7 @@
     <jbehave.site.version>3.3</jbehave.site.version>
     <embeddables>**/StoryMap.java</embeddables>
     <!-- to run browser test cases in headless mode -->
-    <headless>false</headless>
+    <headless>true</headless>
   </properties>
 
   <dependencies>
