@@ -8,6 +8,7 @@ import org.jbehave.core.junit.JUnitStories;
 
 import java.text.SimpleDateFormat;
 import java.util.List;
+import java.util.Properties;
 
 import org.jbehave.core.Embeddable;
 import org.jbehave.core.configuration.Configuration;
@@ -19,6 +20,7 @@ import org.jbehave.core.io.StoryFinder;
 import org.jbehave.core.model.ExamplesTableFactory;
 import org.jbehave.core.model.TableTransformers;
 import org.jbehave.core.parsers.RegexStoryParser;
+import org.jbehave.core.reporters.CrossReference;
 import org.jbehave.core.reporters.StoryReporterBuilder;
 import org.jbehave.core.reporters.SurefireReporter;
 import org.jbehave.core.steps.*;
@@ -35,6 +37,8 @@ import static org.jbehave.core.reporters.Format.XML;
  * Created by prasantabiswas on 21/05/18.
  */
 public class StoryMap extends JUnitStories {
+
+    private CrossReference crx = new CrossReference();
     
     public StoryMap() {
         configuredEmbedder().embedderControls().doGenerateViewAfterStories(true).doIgnoreFailureInStories(true)
@@ -44,6 +48,8 @@ public class StoryMap extends JUnitStories {
     @Override
     public Configuration configuration() {
         Class<? extends Embeddable> embeddableClass = this.getClass();
+        Properties viewResources = new Properties();
+        viewResources.put("decorateNonHtml", "true");
         // Start from default ParameterConverters instance
         ParameterConverters parameterConverters = new ParameterConverters();
         // Start from default ParameterControls instance
@@ -62,9 +68,11 @@ public class StoryMap extends JUnitStories {
                 .withSurefireReporter(new SurefireReporter(embeddableClass))
                     .withCodeLocation(CodeLocations.codeLocationFromClass(embeddableClass))
                     .withDefaultFormats()
+                    .withViewResources(viewResources)
                     .withFormats(CONSOLE, TXT, HTML, XML)
                     .withFailureTrace(true)
-                    .withFailureTraceCompression(true))
+                    .withFailureTraceCompression(true)
+                    .withCrossReference(crx))
             .useParameterConverters(parameterConverters)
             .useParameterControls(parameterControls);
     }
