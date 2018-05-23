@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
  */
 public class CommonSteps {
 
-    protected WebDriver webDriver;
+    protected static WebDriver webDriver;
 
     @Given("I initialize my $browserName browser instance")
     public void setUpMethod(@Named("browserName") String browser)
