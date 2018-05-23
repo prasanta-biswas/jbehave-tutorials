@@ -58,7 +58,7 @@ public class FacebookStatusPost extends CommonSteps{
         }
     }
 
-    @Given("I login to Facebook with invalid inv username <username> and password <password>")
+    @Given("I login to Facebook with invalid username <username> and password <password>")
     public void iLoginToFacebookWithInvalidCredentials(@Named("username") String username, @Named("password") String password)
     {
         try {

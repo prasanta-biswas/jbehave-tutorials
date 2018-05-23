@@ -44,7 +44,7 @@ Meta:
 @data invalid
 Given I have a Facebook account
 And I open Facebook in my web browser with the url <url>
-And I login to Facebook with invalid inv username <username> and password <password>
+And I login to Facebook with invalid username <username> and password <password>
 Then I check if status message box is present in the homepage after unsuccessful login
 
 Examples:
