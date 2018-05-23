@@ -15,3 +15,5 @@
 **Note:** 
 1. Update user name and password of facebook_status_post.story to run successfully
 2. To run in GUI mode change ```headless``` property in ```pom.xml``` to ```false```
+
+**----Tested with Chrome browser in Mac OS----**
