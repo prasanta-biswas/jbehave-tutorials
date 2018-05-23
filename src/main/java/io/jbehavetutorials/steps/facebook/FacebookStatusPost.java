@@ -50,6 +50,20 @@ public class FacebookStatusPost extends CommonSteps{
         try {
             facebookApp.login(username, password);
             Assert.assertTrue("Facebook login failed",facebookApp.isElementPresent(facebookApp.headerPage.accountSettings));
+            logger.info("Login successful");
+        }
+        catch (Exception e)
+        {
+            logger.error("Error occurred",e);
+        }
+    }
+
+    @Given("I login to Facebook with invalid inv username <username> and password <password>")
+    public void iLoginToFacebookWithInvalidCredentials(@Named("username") String username, @Named("password") String password)
+    {
+        try {
+            logger.info("Trying to login with invalid credentials");
+            facebookApp.login(username, password);
         }
         catch (Exception e)
         {

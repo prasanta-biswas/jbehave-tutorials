@@ -57,7 +57,6 @@ public final class FacebookApp implements Commons {
         loginPage.setEmail(email);
         loginPage.setPassword(password);
         loginPage.clickLogin();
-        log.info("Login successful");
     }
 
     public void postStatus() {

@@ -31,11 +31,12 @@ When I put my status <message> in the status box
 And I click post button
 Then I should see my new status <message> in my news feeds
 
+!--Use valid facebook username and password
+
 Examples:
 |username|password|url|message|
 |VALID_USERNAME|VALID_PASSWORD|https://www.facebook.com|Hi Facebook|
 
-!-- Use valid facebook username and password
 
 Scenario: Check validation while trying to update facebook status with wrong username/password
 Meta:
@@ -43,7 +44,7 @@ Meta:
 @data invalid
 Given I have a Facebook account
 And I open Facebook in my web browser with the url <url>
-And I login to Facebook with username <username> and password <password>
+And I login to Facebook with invalid inv username <username> and password <password>
 Then I check if status message box is present in the homepage after unsuccessful login
 
 Examples:
