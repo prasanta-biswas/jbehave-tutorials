@@ -31,8 +31,6 @@ When I put my status <message> in the status box
 And I click post button
 Then I should see my new status <message> in my news feeds
 
-!--Use valid facebook username and password
-
 Examples:
 |username|password|url|message|
 |VALID_USERNAME|VALID_PASSWORD|https://www.facebook.com|Hi Facebook|
