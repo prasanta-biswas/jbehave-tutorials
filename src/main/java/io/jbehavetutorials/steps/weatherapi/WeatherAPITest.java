@@ -37,19 +37,19 @@ public class WeatherAPITest {
 
     @Then("I shall get the weather report of city <city>")
     public void iShallGetWeatherReport(@Named("city") String city) {
-        logger.info("#############Validating response#############");
         Assert.assertTrue("City name not found in response",response.contains(city));
         Assert.assertTrue("Temperature not found in response",response.contains("Temperature"));
         Assert.assertTrue("Humidity not found in response",response.contains("Humidity"));
         Assert.assertTrue("Weather description not found in response",response.contains("WeatherDescription"));
         Assert.assertTrue("Wind speed not found in response",response.contains("WindSpeed"));
         Assert.assertTrue("Wind direction not found in response",response.contains("WindDirectionDegree"));
+        logger.info("Validation succeeded");
     }
 
     @Then("I shall get the validation error message <message>")
     public void iShallGetTheValidationMessage(@Named("message") String message)
     {
-        logger.info("#############Validating response#############");
         Assert.assertTrue("Error message does not match",response.contains(message));
+        logger.info("Validation succeeded");
     }
 }
